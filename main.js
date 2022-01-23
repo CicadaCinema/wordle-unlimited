@@ -1727,7 +1727,6 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
                             e.gameApp.addToast("Share failed", 2e3, !0)
                         }))
                     })), this.shadowRoot.querySelector("button#refresh-button").addEventListener("click", (function (a) {
-                        console.log("REFRESH PRESSED");
                         // inject this special value into localStorage to retain hard mode status and also to hide the introductory modal
                         window.localStorage.setItem("gameState", '{"boardState":["","","","","",""],"evaluations":[null,null,null,null,null,null],"rowIndex":0,"solution":null,"gameStatus":"IN_PROGRESS","lastPlayedTs":1,"lastCompletedTs":1,"restoringFromLocalStorage":null,"hardMode":' + e.gameApp.hardMode.toString() + '}');
                         location.reload();
