@@ -2,4 +2,31 @@
   "github": {
     "silent": true
   }
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://play-wordle-unlimited.pages.dev",
+      "permanent": true
+    },
+    {
+      "source": "/README.md",
+      "destination": "https://play-wordle-unlimited.pages.dev/README.md",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "https://play-wordle-unlimited.pages.dev/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/main.js",
+      "destination": "https://play-wordle-unlimited.pages.dev/main.js",
+      "permanent": true
+    },
+    {
+      "source": "/manifest.json",
+      "destination": "https://play-wordle-unlimited.pages.dev/manifest.json",
+      "permanent": true
+    }
+  ]
 }
